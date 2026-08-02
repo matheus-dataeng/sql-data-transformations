@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Dados brutos do sistema de e-commerce."
+
+    database: sql-data-transformations-curso-chatpgt
+    schema: raw
+
+    tables:
+      - name: clientes
+
+      - name: produtos
+
+      - name: pedidos
+
+      - name: entregas
+
+      - name: pagamentos

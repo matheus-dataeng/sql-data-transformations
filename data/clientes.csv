@@ -1,0 +1,501 @@
+cliente_id,nome,email,telefone,cidade,estado,cep,data_cadastro
+1,Cliente 1 ,cliente1@email.com,(71)99999-9999,Salvador,Bahia,40000000,29/08/2024
+2, Cliente 2,cliente1@email.com,(71)99999-9999,Feira de Santana,bahia,40000-000,22/12/2024
+3,Cliente 3 ,cliente3@email.com,71999999999,Salvador ,BA,40000-000,2024-01-14
+4,Cliente 4 ,cliente4@email.com,(71)99999-9999,Salvador,bahia,40000-000,26/01/2025
+5,Cliente 5 ,cliente5@email.com,71 99999-9999,SALVADOR,Bahia,40000000,2025-04-19
+6,Cliente 6 ,cliente6@email.com,71999999999,SALVADOR,bahia,40000000,02/03/2024
+7,Cliente 7 ,cliente7@email.com,(71)99999-9999,feira de santana,bahia,40000-000,04/06/2024
+8,Cliente 8 ,cliente8@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2024-09-02
+9,Cliente 9 ,cliente9@email.com,(71)99999-9999,feira de santana,bahia,40000000,14/02/2024
+10,Cliente 10 ,cliente10@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,2024-08-28
+11,Cliente 11 ,cliente11@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2024-03-27
+12,Cliente 12 ,cliente12@email.com,71 99999-9999,SALVADOR,Bahia,40000000,02/05/2025
+13,Cliente 13 ,cliente13@email.com,71 99999-9999,Salvador,Bahia,40000-000,2024-09-22
+14, Cliente 14,cliente14@email.com,71 99999-9999,feira de santana,BA,40000000,05/09/2024
+15, Cliente 15,cliente15@email.com,71 99999-9999,Salvador ,Bahia,40000-000,2025-02-15
+16,Cliente 16 ,cliente16@email.com,71999999999,feira de santana,Bahia,40000-000,2025-03-06
+17, Cliente 17,cliente16@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2025-02-12
+18, Cliente 18,cliente18@email.com,71 99999-9999,SALVADOR,bahia,40000000,27/11/2024
+19,Cliente 19 ,cliente19@email.com,71999999999,Salvador ,Bahia,40000000,2024-08-03
+20,Cliente 20 ,cliente20@email.com,71999999999,feira de santana,Bahia,40000-000,2024-04-25
+21, Cliente 21,cliente21@email.com,(71)99999-9999,feira de santana,bahia,40000000,2024-10-05
+22,Cliente 22 ,cliente22@email.com,(71)99999-9999,SALVADOR,bahia,40000-000,21/07/2024
+23,Cliente 23 ,cliente23@email.com,71999999999,SALVADOR,BA,40000000,2024-02-06
+24,Cliente 24 ,cliente24@email.com,(71)99999-9999,feira de santana,Bahia,40000-000,2024-01-05
+25,Cliente 25 ,cliente25@email.com,(71)99999-9999,SALVADOR,bahia,40000-000,2024-07-12
+26,Cliente 26 ,cliente26@email.com,(71)99999-9999,feira de santana,BA,40000000,23/02/2024
+27,Cliente 27 ,cliente27@email.com,(71)99999-9999,Salvador ,BA,40000-000,12/04/2024
+28,Cliente 28 ,cliente28@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,04/03/2025
+29,Cliente 29 ,cliente29@email.com,71 99999-9999,feira de santana,Bahia,40000-000,2024-02-03
+30,Cliente 30 ,cliente30@email.com,71999999999,Salvador ,Bahia,40000000,07/07/2024
+31,Cliente 31 ,cliente31@email.com,71 99999-9999,Feira de Santana,BA,40000-000,2024-06-13
+32,Cliente 32 ,cliente32@email.com,71999999999,SALVADOR,Bahia,40000-000,10/11/2024
+33,Cliente 33 ,cliente33@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,22/08/2024
+34, Cliente 34,cliente34@email.com,71 99999-9999,Salvador,BA,40000000,2024-02-28
+35,Cliente 35 ,cliente35@email.com,71999999999,Salvador,Bahia,40000-000,2024-12-14
+36,Cliente 36 ,cliente36@email.com,(71)99999-9999,feira de santana,Bahia,40000000,30/12/2024
+37,Cliente 37 ,cliente37@email.com,71999999999,Salvador,Bahia,40000000,18/08/2024
+38, Cliente 38,cliente38@email.com,71 99999-9999,Feira de Santana,BA,40000000,20/04/2024
+39,Cliente 39 ,cliente39@email.com,(71)99999-9999,SALVADOR,BA,40000000,11/02/2024
+40,Cliente 40 ,cliente40@email.com,71 99999-9999,Salvador ,BA,40000000,09/05/2025
+41,Cliente 41 ,cliente41@email.com,71 99999-9999,Salvador ,BA,40000000,2024-02-21
+42, Cliente 42,cliente42@email.com,71999999999,Salvador ,bahia,40000-000,2025-01-08
+43, Cliente 43,cliente43@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,21/02/2024
+44,Cliente 44 ,cliente44@email.com,71999999999,SALVADOR,Bahia,40000000,24/02/2024
+45,Cliente 45 ,cliente45@email.com,71 99999-9999,Salvador,Bahia,40000-000,01/04/2024
+46,Cliente 46 ,cliente46@email.com,71 99999-9999,SALVADOR,Bahia,40000-000,15/12/2024
+47,Cliente 47 ,cliente47@email.com,71 99999-9999,Feira de Santana,BA,40000000,04/03/2025
+48,Cliente 48 ,cliente48@email.com,(71)99999-9999,feira de santana,BA,40000-000,20/12/2024
+49,Cliente 49 ,cliente49@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,2024-03-29
+50, Cliente 50,cliente50@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,02/05/2024
+51,Cliente 51 ,cliente51@email.com,(71)99999-9999,Salvador ,bahia,40000000,2025-05-12
+52, Cliente 52,cliente52@email.com,(71)99999-9999,SALVADOR,bahia,40000-000,08/06/2024
+53,Cliente 53 ,cliente53@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2025-03-14
+54,Cliente 54 ,cliente54@email.com,71999999999,SALVADOR,Bahia,40000000,2024-04-21
+55,Cliente 55 ,cliente55@email.com,(71)99999-9999,feira de santana,BA,40000-000,2024-09-25
+56,Cliente 56 ,cliente56@email.com,71999999999,SALVADOR,bahia,40000-000,2024-08-15
+57,Cliente 57 ,cliente57@email.com,(71)99999-9999,Feira de Santana,BA,40000000,2024-08-12
+58,Cliente 58 ,cliente58@email.com,(71)99999-9999,feira de santana,bahia,40000000,2025-04-10
+59,Cliente 59 ,cliente59@email.com,71 99999-9999,Salvador,BA,40000000,2024-10-23
+60,Cliente 60 ,cliente60@email.com,(71)99999-9999,SALVADOR,BA,40000000,2024-03-16
+61,Cliente 61 ,cliente61@email.com,71 99999-9999,Feira de Santana,BA,40000000,08/09/2024
+62,Cliente 62 ,cliente62@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2025-04-07
+63,Cliente 63 ,cliente63@email.com,71 99999-9999,SALVADOR,BA,40000000,20/10/2024
+64,Cliente 64 ,cliente64@email.com,(71)99999-9999,Salvador,BA,40000000,02/01/2025
+65,Cliente 65 ,cliente65@email.com,71 99999-9999,feira de santana,Bahia,40000-000,27/11/2024
+66,Cliente 66 ,cliente66@email.com,71 99999-9999,feira de santana,bahia,40000-000,17/04/2025
+67,Cliente 67 ,cliente67@email.com,71 99999-9999,Salvador ,bahia,40000-000,2024-08-18
+68, Cliente 68,cliente68@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,2024-09-09
+69,Cliente 69 ,cliente69@email.com,(71)99999-9999,SALVADOR,bahia,40000000,04/02/2025
+70,Cliente 70 ,cliente70@email.com,71 99999-9999,Salvador,Bahia,40000000,12/02/2025
+71,Cliente 71 ,cliente71@email.com,(71)99999-9999,Feira de Santana,BA,40000000,2024-09-18
+72, Cliente 72,cliente72@email.com,71999999999,Salvador ,BA,40000000,2024-01-11
+73,Cliente 73 ,cliente73@email.com,(71)99999-9999,Salvador ,bahia,40000000,2024-04-16
+74,Cliente 74 ,cliente74@email.com,71 99999-9999,feira de santana,bahia,40000000,2024-08-27
+75,Cliente 75 ,cliente75@email.com,71 99999-9999,Salvador ,Bahia,40000-000,19/07/2024
+76,Cliente 76 ,cliente76@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2025-03-08
+77,Cliente 77 ,cliente77@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2024-02-07
+78,Cliente 78 ,cliente78@email.com,71 99999-9999,SALVADOR,bahia,40000000,2024-08-23
+79,Cliente 79 ,cliente79@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,2024-02-29
+80,Cliente 80 ,cliente80@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,2025-05-04
+81,Cliente 81 ,cliente80@email.com,71999999999,Salvador,Bahia,40000000,24/06/2024
+82,Cliente 82 ,cliente82@email.com,(71)99999-9999,SALVADOR,Bahia,40000000,2024-07-12
+83,Cliente 83 ,cliente83@email.com,71 99999-9999,feira de santana,Bahia,40000-000,19/08/2024
+84,Cliente 84 ,cliente84@email.com,71999999999,Salvador,BA,40000-000,15/03/2025
+85,Cliente 85 ,cliente85@email.com,71999999999,Feira de Santana,BA,40000-000,2025-02-10
+85,Cliente 86 ,cliente86@email.com,71999999999,feira de santana,Bahia,40000000,2024-03-07
+87,Cliente 87 ,cliente87@email.com,71999999999,feira de santana,BA,40000-000,22/01/2024
+88,Cliente 88 ,cliente88@email.com,(71)99999-9999,SALVADOR,bahia,40000000,2024-12-17
+89,Cliente 89 ,cliente89@email.com,(71)99999-9999,SALVADOR,BA,40000-000,2024-10-28
+90,Cliente 90 ,cliente90@email.com,71 99999-9999,Salvador,Bahia,40000000,2024-10-02
+91,Cliente 91 ,cliente91@email.com,71999999999,Salvador ,bahia,40000-000,2024-05-08
+92,Cliente 92 ,cliente92@email.com,(71)99999-9999,Salvador,BA,40000-000,12/04/2025
+93, Cliente 93,cliente93@email.com,71999999999,feira de santana,BA,40000000,2024-12-06
+94,Cliente 94 ,cliente94@email.com,(71)99999-9999,Salvador,bahia,40000000,16/02/2024
+95, Cliente 95,cliente94@email.com,(71)99999-9999,Salvador,bahia,40000000,2024-06-09
+96,Cliente 96 ,cliente96@email.com,71 99999-9999,Salvador ,BA,40000000,2025-03-06
+97,Cliente 97 ,cliente97@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-02-23
+98,Cliente 98 ,cliente98@email.com,71 99999-9999,feira de santana,bahia,40000-000,04/04/2025
+99,Cliente 99 ,cliente99@email.com,(71)99999-9999,Salvador,Bahia,40000000,2024-03-05
+100,Cliente 100 ,cliente100@email.com,(71)99999-9999,Feira de Santana,Bahia,40000000,29/06/2024
+101,Cliente 101 ,cliente101@email.com,71 99999-9999,Salvador,BA,40000000,13/04/2025
+102,Cliente 102 ,cliente102@email.com,(71)99999-9999,Feira de Santana,Bahia,40000000,19/04/2025
+103,Cliente 103 ,cliente103@email.com,71999999999,SALVADOR,BA,40000000,21/10/2024
+104,Cliente 104 ,cliente104@email.com,(71)99999-9999,Salvador ,Bahia,40000000,25/08/2024
+105,Cliente 105 ,cliente105@email.com,71 99999-9999,SALVADOR,bahia,40000-000,2025-04-09
+106,Cliente 106 ,cliente106@email.com,71999999999,Salvador,bahia,40000000,2024-12-31
+107, Cliente 107,cliente107@email.com,71 99999-9999,Salvador,BA,40000-000,2024-11-25
+108,Cliente 108 ,cliente108@email.com,(71)99999-9999,Salvador ,BA,40000-000,02/11/2024
+109,Cliente 109 ,cliente109@email.com,71 99999-9999,Salvador ,bahia,40000-000,12/02/2025
+110,Cliente 110 ,cliente110@email.com,(71)99999-9999,Feira de Santana,BA,40000-000,17/01/2025
+111,Cliente 111 ,cliente111@email.com,71 99999-9999,feira de santana,bahia,40000000,21/01/2024
+112,Cliente 112 ,cliente112@email.com,(71)99999-9999,Salvador,bahia,40000-000,24/02/2025
+113,Cliente 113 ,cliente113@email.com,71 99999-9999,feira de santana,bahia,40000000,26/09/2024
+114,Cliente 114 ,cliente114@email.com,(71)99999-9999,feira de santana,bahia,40000000,19/08/2024
+115,Cliente 115 ,cliente115@email.com,71999999999,Salvador ,bahia,40000-000,2024-08-05
+116,Cliente 116 ,cliente116@email.com,71 99999-9999,Salvador,BA,40000-000,2025-03-09
+117,Cliente 117 ,cliente117@email.com,(71)99999-9999,Feira de Santana,Bahia,40000000,2024-08-21
+118,Cliente 118 ,cliente118@email.com,71999999999,Salvador ,Bahia,40000-000,28/10/2024
+119,Cliente 119 ,cliente119@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,09/08/2024
+120,Cliente 120 ,cliente120@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,2024-02-16
+121,Cliente 121 ,cliente121@email.com,71999999999,Salvador,Bahia,40000-000,2024-09-02
+122,Cliente 122 ,cliente122@email.com,71999999999,Feira de Santana,bahia,40000-000,2024-10-08
+123,Cliente 123 ,cliente123@email.com,71999999999,feira de santana,bahia,40000000,2025-03-03
+124,Cliente 124 ,cliente124@email.com,71 99999-9999,Salvador,BA,40000-000,19/03/2025
+125,Cliente 125 ,cliente125@email.com,(71)99999-9999,Feira de Santana,BA,40000000,2024-02-24
+126,Cliente 126 ,cliente126@email.com,71 99999-9999,Salvador ,Bahia,40000000,20/03/2025
+127,Cliente 127 ,cliente127@email.com,71 99999-9999,Salvador ,Bahia,40000-000,05/01/2024
+128,Cliente 128 ,cliente128@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,27/04/2024
+129,Cliente 129 ,cliente129@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2024-09-29
+130,Cliente 130 ,cliente130@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,12/09/2024
+131,Cliente 131 ,cliente131@email.com,71999999999,feira de santana,bahia,40000000,2024-09-30
+132,Cliente 132 ,cliente132@email.com,71 99999-9999,SALVADOR,Bahia,40000000,02/09/2024
+133,Cliente 133 ,cliente133@email.com,71999999999,Salvador,bahia,40000-000,2024-10-15
+134,Cliente 134 ,cliente134@email.com,71 99999-9999,Salvador ,Bahia,40000000,2024-01-03
+135,Cliente 135 ,cliente135@email.com,71 99999-9999,SALVADOR,Bahia,40000000,17/05/2024
+136,Cliente 136 ,cliente136@email.com,(71)99999-9999,SALVADOR,bahia,40000-000,2024-06-26
+137,Cliente 137 ,cliente137@email.com,71999999999,Salvador ,bahia,40000-000,2024-07-04
+138,Cliente 138 ,cliente138@email.com,71 99999-9999,SALVADOR,BA,40000000,2024-05-20
+139,Cliente 139 ,cliente139@email.com,(71)99999-9999,SALVADOR,bahia,40000000,2024-07-26
+140,Cliente 140 ,cliente140@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-06-03
+141,Cliente 141 ,cliente141@email.com,71 99999-9999,Salvador,BA,40000-000,20/04/2024
+142, Cliente 142,cliente142@email.com,71 99999-9999,Salvador ,Bahia,40000-000,2024-07-25
+143, Cliente 143,cliente143@email.com,(71)99999-9999,feira de santana,bahia,40000-000,12/11/2024
+144,Cliente 144 ,cliente144@email.com,71 99999-9999,SALVADOR,bahia,40000-000,04/09/2024
+145,Cliente 145 ,cliente145@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,2025-05-15
+146,Cliente 146 ,cliente146@email.com,71 99999-9999,Salvador,bahia,40000-000,2025-04-15
+147,Cliente 147 ,cliente147@email.com,(71)99999-9999,Salvador,Bahia,40000000,21/05/2024
+148,Cliente 148 ,cliente148@email.com,(71)99999-9999,Salvador,bahia,40000-000,2025-02-19
+149,Cliente 149 ,cliente149@email.com,(71)99999-9999,feira de santana,Bahia,40000000,14/02/2025
+150,Cliente 150 ,cliente150@email.com,71999999999,Salvador,bahia,40000000,2025-03-22
+151, Cliente 151,cliente151@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,11/11/2024
+152,Cliente 152 ,cliente152@email.com,(71)99999-9999,Feira de Santana,bahia,40000-000,2024-11-21
+153,Cliente 153 ,cliente153@email.com,71999999999,feira de santana,bahia,40000000,02/04/2025
+154,Cliente 154 ,cliente154@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2024-07-22
+155,Cliente 155 ,cliente155@email.com,71 99999-9999,SALVADOR,bahia,40000000,15/01/2025
+156,Cliente 156 ,cliente156@email.com,71999999999,Feira de Santana,Bahia,40000000,2024-10-04
+157,Cliente 157 ,cliente157@email.com,71999999999,Salvador,Bahia,40000000,2024-02-25
+158,Cliente 158 ,cliente158@email.com,(71)99999-9999,feira de santana,Bahia,40000-000,2024-03-19
+159, Cliente 159,cliente159@email.com,71 99999-9999,SALVADOR,bahia,40000000,2024-01-03
+160,Cliente 160 ,cliente160@email.com,(71)99999-9999,SALVADOR,BA,40000-000,30/03/2024
+161,Cliente 161 ,cliente161@email.com,71999999999,feira de santana,bahia,40000-000,2024-12-24
+162,Cliente 162 ,cliente162@email.com,71 99999-9999,Salvador,Bahia,40000-000,2024-10-13
+163,Cliente 163 ,cliente163@email.com,71999999999,Salvador,BA,40000000,26/08/2024
+164,Cliente 164 ,cliente164@email.com,71 99999-9999,Salvador ,bahia,40000000,13/09/2024
+165,Cliente 165 ,cliente165@email.com,71999999999,Feira de Santana,Bahia,40000000,2025-04-20
+166,Cliente 166 ,cliente166@email.com,71 99999-9999,feira de santana,BA,40000000,2024-06-21
+167,Cliente 167 ,cliente167@email.com,71 99999-9999,Feira de Santana,BA,40000-000,2025-05-03
+168,Cliente 168 ,cliente168@email.com,71 99999-9999,feira de santana,bahia,40000-000,05/10/2024
+169,Cliente 169 ,cliente169@email.com,(71)99999-9999,Feira de Santana,bahia,40000-000,2024-02-12
+170,Cliente 170 ,cliente169@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,2024-10-29
+171,Cliente 171 ,cliente171@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,04/12/2024
+172,Cliente 172 ,cliente172@email.com,71 99999-9999,SALVADOR,Bahia,40000000,01/10/2024
+173,Cliente 173 ,cliente173@email.com,(71)99999-9999,Salvador,Bahia,40000-000,10/11/2024
+174,Cliente 174 ,cliente174@email.com,(71)99999-9999,SALVADOR,BA,40000-000,27/02/2024
+175,Cliente 175 ,cliente175@email.com,71 99999-9999,Feira de Santana,BA,40000-000,23/02/2025
+176,Cliente 176 ,cliente176@email.com,71 99999-9999,Salvador ,bahia,40000-000,2025-01-02
+177,Cliente 177 ,cliente177@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2024-05-17
+178,Cliente 178 ,cliente178@email.com,71 99999-9999,SALVADOR,Bahia,40000000,28/01/2025
+179,Cliente 179 ,cliente179@email.com,71999999999,SALVADOR,bahia,40000-000,2024-08-20
+180,Cliente 180 ,cliente180@email.com,(71)99999-9999,SALVADOR,BA,40000-000,2024-12-13
+181,Cliente 181 ,cliente181@email.com,71999999999,feira de santana,bahia,40000-000,09/03/2025
+182,Cliente 182 ,cliente182@email.com,71 99999-9999,Salvador,Bahia,40000-000,2024-08-22
+183,Cliente 183 ,cliente183@email.com,(71)99999-9999,Feira de Santana,BA,40000-000,19/03/2025
+184,Cliente 184 ,cliente184@email.com,71 99999-9999,Salvador ,Bahia,40000000,08/04/2025
+185,Cliente 185 ,cliente185@email.com,(71)99999-9999,Salvador,Bahia,40000000,28/10/2024
+186,Cliente 186 ,cliente186@email.com,(71)99999-9999,Salvador,bahia,40000000,31/07/2024
+187,Cliente 187 ,cliente187@email.com,71999999999,Salvador,bahia,40000-000,21/02/2024
+188,Cliente 188 ,cliente188@email.com,71 99999-9999,Salvador ,bahia,40000-000,2024-09-05
+189,Cliente 189 ,cliente189@email.com,71 99999-9999,Salvador,BA,40000000,2024-07-03
+190,Cliente 190 ,cliente190@email.com,(71)99999-9999,Salvador ,bahia,40000000,24/02/2025
+191,Cliente 191 ,cliente191@email.com,71999999999,Salvador,bahia,40000-000,23/02/2025
+192,Cliente 192 ,cliente192@email.com,71 99999-9999,Salvador,BA,40000-000,08/04/2025
+193,Cliente 193 ,cliente193@email.com,71 99999-9999,Salvador ,BA,40000-000,20/02/2024
+194, Cliente 194,cliente194@email.com,71999999999,feira de santana,BA,40000000,22/06/2024
+195,Cliente 195 ,cliente195@email.com,(71)99999-9999,Salvador,BA,40000000,2024-08-01
+196, Cliente 196,cliente196@email.com,71 99999-9999,feira de santana,Bahia,40000-000,2025-05-13
+197,Cliente 197 ,cliente197@email.com,71 99999-9999,Salvador,bahia,40000000,2024-08-22
+198,Cliente 198 ,cliente198@email.com,71 99999-9999,Salvador ,BA,40000-000,08/01/2024
+199,Cliente 199 ,cliente199@email.com,71999999999,SALVADOR,BA,40000-000,2024-01-18
+200,Cliente 200 ,cliente200@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,2024-04-09
+201,Cliente 201 ,cliente201@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-07-05
+202,Cliente 202 ,cliente202@email.com,71 99999-9999,feira de santana,Bahia,40000000,2024-06-22
+203,Cliente 203 ,cliente203@email.com,(71)99999-9999,feira de santana,bahia,40000000,03/11/2024
+204,Cliente 204 ,cliente204@email.com,71 99999-9999,Salvador ,bahia,40000000,06/11/2024
+205, Cliente 205,cliente205@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,17/09/2024
+206,Cliente 206 ,cliente206@email.com,71 99999-9999,SALVADOR,Bahia,40000000,2024-01-28
+207,Cliente 207 ,cliente206@email.com,71 99999-9999,Salvador,Bahia,40000000,08/01/2024
+208,Cliente 208 ,cliente208@email.com,71999999999,SALVADOR,bahia,40000-000,2024-06-17
+209,Cliente 209 ,cliente209@email.com,71 99999-9999,Salvador ,Bahia,40000000,2024-04-29
+210,Cliente 210 ,cliente210@email.com,71 99999-9999,feira de santana,bahia,40000000,03/06/2024
+211,Cliente 211 ,cliente211@email.com,71999999999,SALVADOR,Bahia,40000-000,2024-11-07
+212,Cliente 212 ,cliente212@email.com,(71)99999-9999,Feira de Santana,BA,40000-000,03/01/2025
+213,Cliente 213 ,cliente212@email.com,71 99999-9999,Salvador ,Bahia,40000000,2024-03-28
+214,Cliente 214 ,cliente214@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,25/10/2024
+215,Cliente 215 ,cliente215@email.com,(71)99999-9999,Salvador,bahia,40000000,2024-02-28
+216,Cliente 216 ,cliente216@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,2024-01-28
+217,Cliente 217 ,cliente217@email.com,(71)99999-9999,Salvador,BA,40000-000,2024-01-02
+218,Cliente 218 ,cliente217@email.com,71999999999,Salvador,BA,40000000,2024-06-19
+219,Cliente 219 ,cliente219@email.com,(71)99999-9999,Salvador ,bahia,40000000,2025-03-31
+220,Cliente 220 ,cliente220@email.com,71 99999-9999,Feira de Santana,BA,40000000,16/06/2024
+221,Cliente 221 ,cliente221@email.com,71999999999,SALVADOR,BA,40000-000,31/03/2024
+222, Cliente 222,cliente222@email.com,71 99999-9999,SALVADOR,BA,40000000,2024-03-17
+223,Cliente 223 ,cliente223@email.com,71 99999-9999,Salvador,Bahia,40000-000,2025-02-10
+224,Cliente 224 ,cliente224@email.com,71 99999-9999,Salvador,BA,40000-000,25/04/2025
+225,Cliente 225 ,cliente225@email.com,71 99999-9999,Salvador,bahia,40000000,2025-01-26
+226,Cliente 226 ,cliente226@email.com,71 99999-9999,feira de santana,Bahia,40000000,15/02/2024
+227,Cliente 227 ,cliente227@email.com,(71)99999-9999,SALVADOR,bahia,40000-000,2024-05-02
+228,Cliente 228 ,cliente228@email.com,(71)99999-9999,Salvador ,Bahia,40000000,21/08/2024
+229,Cliente 229 ,cliente229@email.com,71999999999,Salvador ,BA,40000000,27/03/2024
+230,Cliente 230 ,cliente230@email.com,71999999999,SALVADOR,Bahia,40000-000,2024-03-10
+231,Cliente 231 ,cliente231@email.com,71 99999-9999,Salvador ,BA,40000000,14/03/2025
+232,Cliente 232 ,cliente232@email.com,(71)99999-9999,Salvador,BA,40000000,2024-02-05
+233, Cliente 233,cliente232@email.com,71999999999,Salvador ,bahia,40000000,16/09/2024
+234,Cliente 234 ,cliente234@email.com,71 99999-9999,Salvador ,Bahia,40000-000,04/04/2024
+235,Cliente 235 ,cliente235@email.com,71999999999,Salvador,BA,40000000,16/06/2024
+236,Cliente 236 ,cliente236@email.com,(71)99999-9999,feira de santana,BA,40000-000,2024-02-19
+237,Cliente 237 ,cliente237@email.com,71999999999,SALVADOR,BA,40000000,20/10/2024
+238,Cliente 238 ,cliente238@email.com,71999999999,feira de santana,Bahia,40000-000,2024-08-09
+239,Cliente 239 ,cliente239@email.com,71999999999,Salvador,BA,40000000,2024-07-04
+240,Cliente 240 ,cliente240@email.com,71 99999-9999,SALVADOR,BA,40000000,2024-11-25
+241,Cliente 241 ,cliente241@email.com,71 99999-9999,Salvador,BA,40000000,31/03/2025
+242,Cliente 242 ,cliente242@email.com,(71)99999-9999,feira de santana,Bahia,40000-000,2024-09-06
+243,Cliente 243 ,cliente243@email.com,71 99999-9999,Salvador ,bahia,40000000,2025-03-31
+244,Cliente 244 ,cliente244@email.com,71999999999,Salvador ,BA,40000-000,10/04/2025
+245,Cliente 245 ,cliente245@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,2024-05-30
+246, Cliente 246,cliente246@email.com,71 99999-9999,SALVADOR,Bahia,40000000,28/01/2025
+247,Cliente 247 ,cliente247@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,22/07/2024
+248,Cliente 248 ,cliente248@email.com,(71)99999-9999,Feira de Santana,BA,40000000,2025-05-12
+249,Cliente 249 ,cliente249@email.com,71999999999,Salvador,bahia,40000000,18/10/2024
+250,Cliente 250 ,cliente250@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,16/07/2024
+251,Cliente 251 ,cliente251@email.com,71 99999-9999,Salvador ,Bahia,40000000,01/05/2024
+252,Cliente 252 ,cliente252@email.com,71999999999,SALVADOR,BA,40000000,2025-04-21
+253,Cliente 253 ,cliente253@email.com,71999999999,feira de santana,Bahia,40000000,2024-01-05
+254,Cliente 254 ,cliente254@email.com,71999999999,feira de santana,BA,40000000,2024-08-26
+255,Cliente 255 ,cliente255@email.com,71999999999,SALVADOR,bahia,40000000,29/04/2024
+256,Cliente 256 ,cliente256@email.com,71 99999-9999,feira de santana,bahia,40000000,2024-10-30
+257,Cliente 257 ,cliente256@email.com,(71)99999-9999,Salvador,Bahia,40000000,2024-12-31
+258,Cliente 258 ,cliente258@email.com,(71)99999-9999,Salvador ,BA,40000-000,2024-02-13
+259,Cliente 259 ,cliente259@email.com,71999999999,Feira de Santana,Bahia,40000-000,2024-10-27
+260,Cliente 260 ,cliente260@email.com,(71)99999-9999,Salvador ,BA,40000000,2024-04-02
+261,Cliente 261 ,cliente261@email.com,71 99999-9999,SALVADOR,Bahia,40000000,14/08/2024
+262,Cliente 262 ,cliente262@email.com,(71)99999-9999,Salvador ,Bahia,40000000,2024-06-18
+263,Cliente 263 ,cliente263@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2024-06-12
+264,Cliente 264 ,cliente264@email.com,71999999999,Feira de Santana,bahia,40000-000,2024-02-22
+265,Cliente 265 ,cliente265@email.com,71 99999-9999,Salvador ,Bahia,40000000,08/01/2024
+266,Cliente 266 ,cliente266@email.com,(71)99999-9999,feira de santana,Bahia,40000000,10/03/2025
+267,Cliente 267 ,cliente267@email.com,(71)99999-9999,Salvador,bahia,40000-000,01/10/2024
+268,Cliente 268 ,cliente268@email.com,71 99999-9999,Salvador ,bahia,40000000,14/10/2024
+269,Cliente 269 ,cliente269@email.com,71999999999,SALVADOR,BA,40000-000,2025-03-15
+270,Cliente 270 ,cliente270@email.com,71999999999,Salvador ,Bahia,40000-000,25/06/2024
+271,Cliente 271 ,cliente271@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,09/06/2024
+272,Cliente 272 ,cliente272@email.com,71999999999,Feira de Santana,bahia,40000000,2024-11-05
+273,Cliente 273 ,cliente273@email.com,71999999999,Salvador ,BA,40000000,03/01/2024
+274,Cliente 274 ,cliente274@email.com,71 99999-9999,SALVADOR,Bahia,40000-000,11/07/2024
+275,Cliente 275 ,cliente275@email.com,71 99999-9999,Salvador ,BA,40000-000,2024-03-22
+276,Cliente 276 ,cliente276@email.com,71999999999,Feira de Santana,bahia,40000-000,2024-08-08
+277,Cliente 277 ,cliente277@email.com,71 99999-9999,Salvador ,bahia,40000-000,11/01/2024
+278,Cliente 278 ,cliente278@email.com,71 99999-9999,Feira de Santana,BA,40000-000,09/03/2024
+279,Cliente 279 ,cliente279@email.com,71999999999,Salvador ,bahia,40000000,03/02/2024
+280,Cliente 280 ,cliente280@email.com,71 99999-9999,SALVADOR,BA,40000-000,04/01/2025
+281,Cliente 281 ,cliente281@email.com,71999999999,Salvador,Bahia,40000000,23/02/2024
+282,Cliente 282 ,cliente282@email.com,71 99999-9999,Feira de Santana,bahia,40000000,14/03/2024
+283,Cliente 283 ,cliente283@email.com,(71)99999-9999,Feira de Santana,Bahia,40000-000,2024-04-10
+284,Cliente 284 ,cliente284@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,2024-10-17
+285,Cliente 285 ,cliente285@email.com,71999999999,Salvador,Bahia,40000000,2024-07-31
+286,Cliente 286 ,cliente286@email.com,(71)99999-9999,Salvador ,bahia,40000-000,16/09/2024
+287,Cliente 287 ,cliente287@email.com,71999999999,Salvador ,BA,40000-000,2024-11-21
+288,Cliente 288 ,cliente287@email.com,71999999999,SALVADOR,Bahia,40000-000,2024-08-29
+289,Cliente 289 ,cliente289@email.com,71 99999-9999,Feira de Santana,BA,40000000,2024-10-05
+290,Cliente 290 ,cliente290@email.com,(71)99999-9999,feira de santana,bahia,40000000,03/05/2024
+291,Cliente 291 ,cliente291@email.com,71999999999,SALVADOR,bahia,40000000,2024-02-23
+292,Cliente 292 ,cliente292@email.com,71 99999-9999,feira de santana,BA,40000-000,19/09/2024
+293,Cliente 293 ,cliente293@email.com,71 99999-9999,Salvador,bahia,40000000,13/10/2024
+294, Cliente 294,cliente294@email.com,(71)99999-9999,feira de santana,Bahia,40000000,22/04/2024
+295,Cliente 295 ,cliente295@email.com,(71)99999-9999,Feira de Santana,bahia,40000-000,2024-05-17
+296,Cliente 296 ,cliente296@email.com,71 99999-9999,SALVADOR,Bahia,40000000,23/01/2025
+297,Cliente 297 ,cliente297@email.com,71 99999-9999,SALVADOR,Bahia,40000-000,2024-02-02
+298,Cliente 298 ,cliente298@email.com,(71)99999-9999,Salvador ,Bahia,40000000,2024-03-11
+299,Cliente 299 ,cliente299@email.com,71999999999,Feira de Santana,Bahia,40000000,04/10/2024
+300,Cliente 300 ,cliente300@email.com,(71)99999-9999,feira de santana,BA,40000000,2024-05-25
+301,Cliente 301 ,cliente301@email.com,71999999999,feira de santana,Bahia,40000-000,20/02/2024
+302,Cliente 302 ,cliente302@email.com,(71)99999-9999,Salvador,bahia,40000000,28/09/2024
+303,Cliente 303 ,cliente303@email.com,71999999999,feira de santana,BA,40000-000,01/03/2024
+304,Cliente 304 ,cliente304@email.com,71999999999,SALVADOR,BA,40000000,04/04/2025
+305,Cliente 305 ,cliente305@email.com,71999999999,Salvador,bahia,40000000,2024-01-30
+306,Cliente 306 ,cliente306@email.com,(71)99999-9999,Feira de Santana,BA,40000-000,2024-04-19
+307,Cliente 307 ,cliente307@email.com,(71)99999-9999,Salvador ,Bahia,40000-000,2024-04-01
+308,Cliente 308 ,cliente308@email.com,(71)99999-9999,Salvador ,BA,40000-000,2024-05-11
+309,Cliente 309 ,cliente309@email.com,71999999999,Feira de Santana,bahia,40000-000,29/08/2024
+310,Cliente 310 ,cliente310@email.com,71999999999,SALVADOR,bahia,40000000,2024-12-05
+311,Cliente 311 ,cliente311@email.com,71999999999,SALVADOR,BA,40000000,2024-11-26
+312,Cliente 312 ,cliente312@email.com,71 99999-9999,Salvador ,BA,40000-000,04/05/2024
+313,Cliente 313 ,cliente313@email.com,71 99999-9999,feira de santana,bahia,40000000,23/07/2024
+314, Cliente 314,cliente314@email.com,71999999999,Feira de Santana,BA,40000-000,29/05/2024
+315,Cliente 315 ,cliente315@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,2024-05-15
+316,Cliente 316 ,cliente316@email.com,71 99999-9999,Salvador ,bahia,40000-000,2024-10-14
+317,Cliente 317 ,cliente317@email.com,(71)99999-9999,SALVADOR,BA,40000000,27/12/2024
+318,Cliente 318 ,cliente318@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,2024-09-17
+319, Cliente 319,cliente319@email.com,71999999999,Salvador,Bahia,40000-000,2024-05-30
+320, Cliente 320,cliente320@email.com,71999999999,feira de santana,Bahia,40000000,2024-06-06
+321,Cliente 321 ,cliente321@email.com,71999999999,Salvador ,bahia,40000-000,2024-06-16
+322,Cliente 322 ,cliente322@email.com,(71)99999-9999,Salvador ,bahia,40000000,31/12/2024
+323,Cliente 323 ,cliente323@email.com,71 99999-9999,SALVADOR,BA,40000-000,2025-03-16
+324,Cliente 324 ,cliente324@email.com,71 99999-9999,feira de santana,BA,40000000,2024-07-16
+325,Cliente 325 ,cliente325@email.com,71999999999,Salvador ,BA,40000000,18/09/2024
+326, Cliente 326,cliente326@email.com,71999999999,feira de santana,Bahia,40000000,2024-01-06
+327,Cliente 327 ,cliente327@email.com,71999999999,Salvador ,BA,40000000,10/04/2025
+328,Cliente 328 ,cliente328@email.com,71999999999,Salvador,bahia,40000000,2024-01-22
+329,Cliente 329 ,cliente329@email.com,71999999999,Salvador,BA,40000-000,2024-04-09
+330,Cliente 330 ,cliente330@email.com,71999999999,Feira de Santana,bahia,40000-000,2024-10-13
+331,Cliente 331 ,cliente331@email.com,71999999999,SALVADOR,BA,40000-000,2024-01-09
+332,Cliente 332 ,cliente332@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,05/10/2024
+333,Cliente 333 ,cliente333@email.com,(71)99999-9999,feira de santana,bahia,40000000,2024-05-22
+334,Cliente 334 ,cliente334@email.com,71 99999-9999,SALVADOR,bahia,40000-000,2024-09-21
+335,Cliente 335 ,cliente335@email.com,71999999999,Feira de Santana,bahia,40000000,2025-03-01
+336, Cliente 336,cliente336@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-10-30
+337,Cliente 337 ,cliente337@email.com,(71)99999-9999,feira de santana,BA,40000000,2024-04-07
+338,Cliente 338 ,cliente338@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,2024-03-18
+339, Cliente 339,cliente339@email.com,(71)99999-9999,SALVADOR,BA,40000000,2025-02-19
+340,Cliente 340 ,cliente340@email.com,71999999999,SALVADOR,Bahia,40000000,09/09/2024
+341,Cliente 341 ,cliente341@email.com,(71)99999-9999,Salvador ,Bahia,40000000,2024-07-16
+342,Cliente 342 ,cliente342@email.com,71 99999-9999,feira de santana,bahia,40000000,2024-02-08
+343,Cliente 343 ,cliente343@email.com,(71)99999-9999,Salvador,bahia,40000-000,20/08/2024
+344,Cliente 344 ,cliente344@email.com,(71)99999-9999,feira de santana,bahia,40000000,2024-03-07
+345,Cliente 345 ,cliente345@email.com,71999999999,Feira de Santana,bahia,40000000,15/01/2024
+346,Cliente 346 ,cliente346@email.com,(71)99999-9999,feira de santana,bahia,40000-000,22/04/2024
+347,Cliente 347 ,cliente347@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-12-06
+348,Cliente 348 ,cliente348@email.com,71999999999,Salvador,BA,40000000,19/01/2024
+349,Cliente 349 ,cliente349@email.com,71 99999-9999,Salvador ,BA,40000000,23/03/2025
+350,Cliente 350 ,cliente350@email.com,71 99999-9999,Salvador,BA,40000000,2024-09-19
+351,Cliente 351 ,cliente351@email.com,(71)99999-9999,Salvador,BA,40000000,03/01/2024
+352,Cliente 352 ,cliente352@email.com,(71)99999-9999,SALVADOR,Bahia,40000000,2024-04-06
+353,Cliente 353 ,cliente353@email.com,71 99999-9999,Feira de Santana,Bahia,40000000,2024-06-21
+354,Cliente 354 ,cliente354@email.com,71999999999,Feira de Santana,BA,40000-000,16/05/2024
+355,Cliente 355 ,cliente355@email.com,71 99999-9999,Feira de Santana,Bahia,40000000,2024-05-26
+356,Cliente 356 ,cliente356@email.com,71 99999-9999,feira de santana,BA,40000000,2024-01-11
+357,Cliente 357 ,cliente357@email.com,71 99999-9999,Salvador ,Bahia,40000-000,22/03/2024
+358,Cliente 358 ,cliente358@email.com,71999999999,Salvador,BA,40000000,08/10/2024
+359, Cliente 359,cliente359@email.com,(71)99999-9999,SALVADOR,Bahia,40000000,26/02/2024
+360,Cliente 360 ,cliente360@email.com,(71)99999-9999,Salvador ,BA,40000-000,22/02/2025
+361,Cliente 361 ,cliente361@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-04-05
+362,Cliente 362 ,cliente362@email.com,(71)99999-9999,Salvador,bahia,40000000,2024-10-21
+363,Cliente 363 ,cliente363@email.com,71999999999,feira de santana,BA,40000000,2025-04-29
+364,Cliente 364 ,cliente364@email.com,71999999999,SALVADOR,Bahia,40000-000,2025-03-10
+365,Cliente 365 ,cliente365@email.com,71999999999,feira de santana,BA,40000-000,2024-07-07
+366,Cliente 366 ,cliente366@email.com,71 99999-9999,Salvador ,Bahia,40000000,18/04/2025
+367, Cliente 367,cliente367@email.com,71999999999,feira de santana,bahia,40000000,2025-04-30
+368, Cliente 368,cliente368@email.com,71999999999,Feira de Santana,Bahia,40000000,23/12/2024
+369,Cliente 369 ,cliente369@email.com,(71)99999-9999,SALVADOR,BA,40000000,2024-03-09
+370,Cliente 370 ,cliente370@email.com,(71)99999-9999,Salvador,bahia,40000000,2024-06-11
+371,Cliente 371 ,cliente371@email.com,(71)99999-9999,Salvador,bahia,40000000,2025-03-13
+372,Cliente 372 ,cliente372@email.com,71999999999,Salvador,bahia,40000000,25/01/2025
+373,Cliente 373 ,cliente373@email.com,(71)99999-9999,feira de santana,bahia,40000000,2025-02-25
+374,Cliente 374 ,cliente374@email.com,71 99999-9999,Salvador ,bahia,40000-000,02/02/2025
+375,Cliente 375 ,cliente375@email.com,(71)99999-9999,SALVADOR,Bahia,40000000,2024-10-22
+376,Cliente 376 ,cliente376@email.com,71 99999-9999,Feira de Santana,Bahia,40000000,2024-09-07
+377,Cliente 377 ,cliente377@email.com,71 99999-9999,Salvador ,Bahia,40000000,04/03/2024
+378,Cliente 378 ,cliente378@email.com,71999999999,Feira de Santana,BA,40000000,2024-05-03
+379, Cliente 379,cliente379@email.com,71999999999,Salvador,bahia,40000-000,23/01/2024
+380,Cliente 380 ,cliente380@email.com,(71)99999-9999,feira de santana,bahia,40000-000,22/03/2024
+381,Cliente 381 ,cliente381@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2024-06-15
+382,Cliente 382 ,cliente381@email.com,71999999999,feira de santana,Bahia,40000-000,2024-08-18
+382,Cliente 383 ,cliente383@email.com,71 99999-9999,Salvador ,bahia,40000000,22/08/2024
+384,Cliente 384 ,cliente384@email.com,71 99999-9999,SALVADOR,bahia,40000-000,06/07/2024
+385,Cliente 385 ,cliente385@email.com,(71)99999-9999,Salvador,Bahia,40000000,2025-01-23
+386,Cliente 386 ,cliente386@email.com,71 99999-9999,Salvador,BA,40000000,2024-07-02
+387,Cliente 387 ,cliente387@email.com,(71)99999-9999,Salvador,Bahia,40000-000,27/09/2024
+388,Cliente 388 ,cliente388@email.com,71999999999,SALVADOR,Bahia,40000000,2024-05-11
+389,Cliente 389 ,cliente389@email.com,(71)99999-9999,Salvador,bahia,40000000,2024-02-21
+390,Cliente 390 ,cliente390@email.com,(71)99999-9999,feira de santana,bahia,40000-000,2024-03-23
+391,Cliente 391 ,cliente391@email.com,71 99999-9999,Salvador ,bahia,40000-000,2024-01-16
+392,Cliente 392 ,cliente392@email.com,71 99999-9999,Salvador,Bahia,40000-000,2025-04-10
+393,Cliente 393 ,cliente393@email.com,71999999999,Feira de Santana,bahia,40000000,18/12/2024
+394,Cliente 394 ,cliente394@email.com,71999999999,Feira de Santana,Bahia,40000000,16/12/2024
+395,Cliente 395 ,cliente395@email.com,(71)99999-9999,feira de santana,Bahia,40000000,2024-11-10
+396,Cliente 396 ,cliente396@email.com,71 99999-9999,Feira de Santana,Bahia,40000000,2025-01-02
+397,Cliente 397 ,cliente397@email.com,71 99999-9999,SALVADOR,bahia,40000000,10/03/2025
+398,Cliente 398 ,cliente398@email.com,71999999999,feira de santana,BA,40000000,09/12/2024
+399,Cliente 399 ,cliente399@email.com,71999999999,Feira de Santana,BA,40000000,2025-05-10
+400,Cliente 400 ,cliente400@email.com,71 99999-9999,feira de santana,Bahia,40000000,09/03/2024
+401,Cliente 401 ,cliente401@email.com,(71)99999-9999,feira de santana,bahia,40000000,11/09/2024
+402,Cliente 402 ,cliente402@email.com,(71)99999-9999,SALVADOR,Bahia,40000000,27/03/2025
+403,Cliente 403 ,cliente403@email.com,71999999999,Feira de Santana,BA,40000-000,2024-10-25
+404,Cliente 404 ,cliente404@email.com,(71)99999-9999,Salvador,Bahia,40000-000,04/05/2025
+405, Cliente 405,cliente405@email.com,(71)99999-9999,feira de santana,Bahia,40000-000,2024-09-23
+406, Cliente 406,cliente406@email.com,71999999999,Salvador ,bahia,40000-000,12/03/2025
+407,Cliente 407 ,cliente406@email.com,(71)99999-9999,feira de santana,bahia,40000-000,13/07/2024
+408,Cliente 408 ,cliente408@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,2024-11-03
+409,Cliente 409 ,cliente409@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,2025-02-03
+410,Cliente 410 ,cliente410@email.com,71999999999,Feira de Santana,bahia,40000000,21/04/2024
+411,Cliente 411 ,cliente411@email.com,71999999999,SALVADOR,bahia,40000000,22/01/2025
+412,Cliente 412 ,cliente412@email.com,71999999999,Feira de Santana,BA,40000000,2024-10-07
+413,Cliente 413 ,cliente413@email.com,71 99999-9999,feira de santana,Bahia,40000-000,07/01/2025
+414,Cliente 414 ,cliente414@email.com,71999999999,Salvador,BA,40000000,2024-09-28
+415,Cliente 415 ,cliente414@email.com,71999999999,feira de santana,Bahia,40000-000,28/01/2024
+416,Cliente 416 ,cliente416@email.com,71 99999-9999,Feira de Santana,bahia,40000000,12/03/2025
+417,Cliente 417 ,cliente417@email.com,71999999999,Salvador ,bahia,40000000,2025-04-02
+418,Cliente 418 ,cliente418@email.com,(71)99999-9999,feira de santana,bahia,40000-000,2025-01-30
+419, Cliente 419,cliente419@email.com,71999999999,Salvador ,BA,40000-000,2024-11-30
+420,Cliente 420 ,cliente420@email.com,71 99999-9999,Salvador ,Bahia,40000-000,2025-01-28
+421,Cliente 421 ,cliente421@email.com,(71)99999-9999,Salvador ,Bahia,40000000,2024-11-12
+422,Cliente 422 ,cliente422@email.com,(71)99999-9999,feira de santana,BA,40000000,13/03/2024
+423,Cliente 423 ,cliente423@email.com,71999999999,Feira de Santana,Bahia,40000-000,17/05/2024
+424,Cliente 424 ,cliente424@email.com,(71)99999-9999,Feira de Santana,Bahia,40000000,21/01/2025
+425,Cliente 425 ,cliente425@email.com,71 99999-9999,Feira de Santana,Bahia,40000000,2025-03-31
+426,Cliente 426 ,cliente426@email.com,(71)99999-9999,feira de santana,Bahia,40000000,04/03/2024
+427,Cliente 427 ,cliente427@email.com,71999999999,Feira de Santana,Bahia,40000-000,2024-12-17
+428, Cliente 428,cliente428@email.com,71 99999-9999,Feira de Santana,BA,40000000,18/11/2024
+429,Cliente 429 ,cliente429@email.com,71 99999-9999,SALVADOR,BA,40000-000,2024-05-20
+429,Cliente 430 ,cliente430@email.com,71999999999,Salvador ,bahia,40000-000,2024-03-06
+431,Cliente 431 ,cliente431@email.com,71999999999,Salvador,BA,40000-000,04/11/2024
+432,Cliente 432 ,cliente432@email.com,71999999999,feira de santana,BA,40000000,2024-05-04
+433,Cliente 433 ,cliente433@email.com,71 99999-9999,feira de santana,bahia,40000-000,07/10/2024
+434,Cliente 434 ,cliente434@email.com,71 99999-9999,Salvador ,BA,40000000,27/09/2024
+435,Cliente 435 ,cliente435@email.com,71 99999-9999,feira de santana,bahia,40000-000,2025-04-19
+436,Cliente 436 ,cliente436@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,15/08/2024
+437,Cliente 437 ,cliente437@email.com,71999999999,Salvador ,bahia,40000000,23/03/2024
+438,Cliente 438 ,cliente438@email.com,71 99999-9999,Feira de Santana,bahia,40000000,2024-11-02
+439,Cliente 439 ,cliente439@email.com,71 99999-9999,Salvador,bahia,40000-000,09/03/2025
+440,Cliente 440 ,cliente440@email.com,71 99999-9999,Salvador,Bahia,40000-000,2024-11-21
+441,Cliente 441 ,cliente441@email.com,71999999999,Feira de Santana,Bahia,40000000,2024-05-04
+442, Cliente 442,cliente442@email.com,71999999999,Salvador,bahia,40000000,19/04/2025
+443,Cliente 443 ,cliente442@email.com,71 99999-9999,feira de santana,bahia,40000000,2024-07-18
+444, Cliente 444,cliente444@email.com,71 99999-9999,SALVADOR,bahia,40000000,2024-01-19
+445,Cliente 445 ,cliente445@email.com,71999999999,Salvador ,bahia,40000000,2024-12-20
+446, Cliente 446,cliente446@email.com,(71)99999-9999,Salvador ,BA,40000-000,28/09/2024
+447,Cliente 447 ,cliente447@email.com,71999999999,SALVADOR,bahia,40000000,24/11/2024
+448,Cliente 448 ,cliente448@email.com,71 99999-9999,feira de santana,bahia,40000-000,2025-01-23
+449,Cliente 449 ,cliente449@email.com,71999999999,Salvador,bahia,40000000,2024-02-15
+450, Cliente 450,cliente450@email.com,71 99999-9999,Salvador,bahia,40000-000,12/06/2024
+451,Cliente 451 ,cliente451@email.com,(71)99999-9999,Salvador,Bahia,40000000,06/01/2024
+452,Cliente 452 ,cliente452@email.com,71 99999-9999,Salvador,BA,40000000,11/02/2025
+453,Cliente 453 ,cliente453@email.com,71 99999-9999,SALVADOR,bahia,40000000,11/04/2025
+454, Cliente 454,cliente454@email.com,71 99999-9999,SALVADOR,bahia,40000000,2024-06-15
+455,Cliente 455 ,cliente455@email.com,(71)99999-9999,Salvador,bahia,40000-000,2025-03-27
+456,Cliente 456 ,cliente456@email.com,(71)99999-9999,Salvador,Bahia,40000-000,05/06/2024
+457,Cliente 457 ,cliente457@email.com,71 99999-9999,Salvador ,BA,40000-000,2025-02-16
+458,Cliente 458 ,cliente458@email.com,71999999999,Salvador ,BA,40000-000,2024-10-12
+459,Cliente 459 ,cliente459@email.com,71 99999-9999,Salvador ,BA,40000-000,2024-03-11
+460, Cliente 460,cliente460@email.com,(71)99999-9999,Salvador ,BA,40000-000,2024-12-24
+461,Cliente 461 ,cliente461@email.com,71 99999-9999,Feira de Santana,Bahia,40000-000,19/07/2024
+462,Cliente 462 ,cliente462@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,2024-06-08
+463, Cliente 463,cliente463@email.com,71999999999,Salvador,bahia,40000000,2024-01-02
+464,Cliente 464 ,cliente464@email.com,71 99999-9999,Feira de Santana,BA,40000000,2024-04-03
+465,Cliente 465 ,cliente465@email.com,(71)99999-9999,Salvador,BA,40000-000,14/04/2024
+466,Cliente 466 ,cliente466@email.com,71 99999-9999,Salvador,Bahia,40000000,2025-04-27
+467,Cliente 467 ,cliente467@email.com,71 99999-9999,Feira de Santana,bahia,40000-000,21/08/2024
+468, Cliente 468,cliente468@email.com,(71)99999-9999,Feira de Santana,Bahia,40000000,2024-08-08
+469,Cliente 469 ,cliente469@email.com,(71)99999-9999,Salvador ,bahia,40000-000,17/08/2024
+469,Cliente 470 ,cliente470@email.com,71 99999-9999,SALVADOR,BA,40000000,2024-12-27
+471,Cliente 471 ,cliente471@email.com,71 99999-9999,Salvador,Bahia,40000-000,2025-04-25
+472,Cliente 472 ,cliente472@email.com,71999999999,Feira de Santana,Bahia,40000-000,13/03/2024
+473,Cliente 473 ,cliente473@email.com,(71)99999-9999,Salvador,bahia,40000000,2024-03-07
+474, Cliente 474,cliente474@email.com,(71)99999-9999,feira de santana,bahia,40000-000,2024-02-01
+475,Cliente 475 ,cliente475@email.com,71 99999-9999,feira de santana,bahia,40000000,12/10/2024
+476,Cliente 476 ,cliente476@email.com,71 99999-9999,feira de santana,BA,40000-000,2025-03-16
+477,Cliente 477 ,cliente477@email.com,(71)99999-9999,Salvador ,bahia,40000-000,18/02/2024
+478,Cliente 478 ,cliente478@email.com,71999999999,feira de santana,BA,40000000,20/01/2024
+479,Cliente 479 ,cliente479@email.com,(71)99999-9999,Salvador ,Bahia,40000000,2024-05-30
+480,Cliente 480 ,cliente479@email.com,71999999999,Feira de Santana,BA,40000-000,2024-03-04
+481,Cliente 481 ,cliente481@email.com,(71)99999-9999,SALVADOR,Bahia,40000000,17/03/2025
+482,Cliente 482 ,cliente482@email.com,71999999999,Feira de Santana,Bahia,40000-000,2025-01-10
+483,Cliente 483 ,cliente483@email.com,(71)99999-9999,SALVADOR,bahia,40000000,21/02/2025
+484,Cliente 484 ,cliente484@email.com,(71)99999-9999,Feira de Santana,bahia,40000000,2024-04-23
+485, Cliente 485,cliente485@email.com,(71)99999-9999,Salvador ,BA,40000-000,19/04/2024
+486,Cliente 486 ,cliente486@email.com,71999999999,Feira de Santana,Bahia,40000000,2024-09-26
+487,Cliente 487 ,cliente487@email.com,71999999999,feira de santana,BA,40000000,01/12/2024
+488,Cliente 488 ,cliente488@email.com,(71)99999-9999,feira de santana,Bahia,40000000,30/12/2024
+489,Cliente 489 ,cliente489@email.com,71 99999-9999,Feira de Santana,bahia,40000000,21/02/2025
+490,Cliente 490 ,cliente490@email.com,(71)99999-9999,Salvador,BA,40000000,17/08/2024
+491,Cliente 491 ,cliente491@email.com,71 99999-9999,Salvador ,BA,40000-000,21/03/2024
+492,Cliente 492 ,cliente492@email.com,71999999999,Feira de Santana,Bahia,40000-000,2024-03-10
+493,Cliente 493 ,cliente493@email.com,71999999999,Salvador ,bahia,40000000,2024-05-17
+494,Cliente 494 ,cliente494@email.com,(71)99999-9999,Salvador ,bahia,40000000,2024-10-10
+495,Cliente 495 ,cliente495@email.com,71999999999,feira de santana,Bahia,40000000,2024-02-26
+496,Cliente 496 ,cliente495@email.com,(71)99999-9999,Feira de Santana,BA,40000000,2024-05-25
+497,Cliente 497 ,cliente497@email.com,(71)99999-9999,feira de santana,Bahia,40000-000,2025-04-03
+498,Cliente 498 ,cliente498@email.com,(71)99999-9999,SALVADOR,Bahia,40000-000,21/01/2025
+498,Cliente 499 ,cliente499@email.com,(71)99999-9999,feira de santana,Bahia,40000-000,17/02/2025
+500,Cliente 500 ,cliente500@email.com,(71)99999-9999,Salvador,Bahia,40000-000,2024-06-30
