@@ -1,6 +1,6 @@
 # SQL para Transformação de Dados com dbt
 
-Repositório de estudo focado em **SQL aplicado à transformação de dados**, simulando um fluxo de Engenharia de Dados semelhante ao que existe em empresas reais — da consulta SQL pura até a modelagem em **dbt**.
+Repositório de estudo focado em **SQL aplicado à transformação de dados**, simulando um fluxo de Engenharia de Dados semelhante ao que existe em situações reais, da consulta SQL pura até a modelagem em **dbt**.
 
 > Este projeto **não ensina SQL básico**. Ele mostra como o SQL é usado na etapa de transformação (ELT) dentro de um pipeline analítico: organização em camadas, uso de CTEs, `ref()` no dbt e as decisões de design por trás de cada modelo.
 
