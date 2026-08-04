@@ -1,0 +1,19 @@
+SELECT
+	pedido_id,
+	cliente_id,
+	produto_id,
+	quantidade,
+	valor_unitario,
+	desconto,
+	valor_total,
+	valor_pago,
+	frete,
+	prazo_entrega_dias,
+	status,
+	status_pagamento,
+	forma_pagamento,
+	transportadora,
+	data_pedido,
+	data_envio,
+	data_entrega
+FROM {{ref ('int_pedidos')}}

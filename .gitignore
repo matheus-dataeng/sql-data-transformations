@@ -1,7 +1,6 @@
 .env
-venv/
-.venv/
-__pycache__/
+.venv
+__pycache__
 *.pyc
 *.db
 .ipynb_checkpoints/dbt_packages/

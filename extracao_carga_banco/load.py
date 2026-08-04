@@ -8,7 +8,7 @@ load_dotenv(dotenv_path=".env")
 
 def credentials() -> Engine:
     
-    user = os.getenv("USER")
+    user = os.getenv("USER_DB")
     password = os.getenv("PASSWORD")
     host = os.getenv("HOST")
     port = os.getenv("PORT")
@@ -39,5 +39,5 @@ def load(df: pd.DataFrame, table_name: str, schema_name: str, engine: Engine) ->
         df.to_sql(name=table_name, schema=schema_name, con=engine, index=False, chunksize=5000, if_exists="append", method="multi")
         
     except Exception as e:
-        raise RuntimeError(f"Falha ao inserir dados na tabela {schema_name}.{table_name}: {e}")
+        raise RuntimeError(f"Falha ao inserir dados na tabela {table_name}: {e}")
         
