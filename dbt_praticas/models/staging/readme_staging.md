@@ -9,8 +9,8 @@ Aqui não existe regra de negócio. A staging é um espelho fiel da fonte, só q
 ## O que É feito aqui
 
 - renomear colunas para um padrão consistente (ex: `snake_case`, nomes descritivos);
-- ajustar tipos (datas como `date`/`timestamp`, valores numéricos como `numeric`, não `text`);
-- correções pontuais de qualidade que não envolvem interpretação de negócio (ex: `trim()` em strings, padronizar case);
+- ajustar tipos (datas como `DATE`/`TIMESTAMP`, valores numéricos como `NUMERIC`, não `TEXT`);
+- correções pontuais de qualidade que não envolvem interpretação de negócio (ex: `TRIM()` em strings, padronizar case);
 - um modelo de staging por fonte/tabela bruta — relação 1:1.
 
 ## O que NÃO é feito aqui
@@ -34,7 +34,7 @@ Se você está tentado a resolver um problema de negócio dentro de um `stg_*`, 
 
 ## Por que manter os problemas de dados aqui?
 
-Porque a staging deve representar **o dado como ele chega**, com o mínimo de padronização técnica. Esconder duplicatas ou registros órfãos nesta camada tira a visibilidade do problema — e problemas de qualidade de dados devem ser tratados de forma explícita e documentada em camadas posteriores (ou via testes do dbt), não silenciados aqui.
+Porque a staging deve representar **o dado como ele chega**, com o mínimo de padronização técnica. Esconder duplicatas ou registros órfãos nesta camada tira a visibilidade do problema, e problemas de qualidade de dados devem ser tratados de forma explícita e documentada em camadas posteriores (ou via testes do dbt), não silenciados aqui.
 
 ## Exemplo de padrão usado
 
@@ -55,4 +55,4 @@ renamed AS (
 SELECT * FROM renamed
 ```
 
-Simples, previsível e fácil de auditar — essa é a meta da staging.
+Simples, previsível e fácil de auditar, essa é a meta da staging.

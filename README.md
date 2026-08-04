@@ -10,20 +10,20 @@ A maioria dos materiais de SQL para iniciantes ensina `SELECT`, `JOIN` e `GROUP 
 
 ## Sobre os dados
 
-Todos os dados são **100% fictícios**, gerados especificamente para fins educacionais, simulando um e-commerce (clientes, produtos, pedidos, pagamentos e entregas).
+Todos os dados são **100% fictícios**, gerados especificamente para fins praticos, simulando um e-commerce (clientes, produtos, pedidos, pagamentos e entregas).
 
 Os CSVs foram construídos **de propósito** com problemas comuns em bases reais:
 
 | Problema | Onde aparece |
 |---|---|
 | Registros duplicados | clientes, produtos |
-| Chaves sem correspondência (órfãs) | pedidos → clientes/produtos |
+| Chaves sem correspondência | pedidos → clientes/produtos |
 | Valores nulos | várias tabelas |
 | Relacionamentos inconsistentes | pedidos ↔ entregas |
 | Múltiplos pagamentos para um mesmo pedido | pagamentos |
 | Múltiplas entregas para um mesmo pedido | entregas |
 
-**O objetivo nunca foi ter uma base perfeita.** Dados perfeitos não ensinam nada sobre engenharia de dados — o trabalho real está em lidar com essas inconsistências de forma consciente e documentada.
+**O objetivo nunca foi ter uma base perfeita.** Dados perfeitos não ensinam nada sobre engenharia de dados, o trabalho real está em lidar com essas inconsistências de forma consciente e documentada.
 
 ## Arquitetura em camadas
 
@@ -44,7 +44,7 @@ marts/        → modelo dimensional pronto para consumo
 |---|---|---|
 | [`staging`](models/staging/readme_staging.md) | Renomear colunas, ajustar tipos, padronizar | `stg_clientes`, `stg_produtos`, `stg_pedidos`, `stg_pagamentos`, `stg_entregas` |
 | [`intermediate`](models/intermediate/readme_intermediate.md) | Joins, cálculos, regra de negócio | `int_pedidos` |
-| [`marts`](models/marts/readme_marts.md) | Modelagem dimensional final | `dim_clientes`, `dim_produtos`, `fct_pedidos` |
+| [`marts`](models/marts/readme_marts.md) | Modelagem final | `dim_clientes`, `dim_produtos`, `fct_pedidos` |
 
 Cada camada tem seu próprio README explicando **o porquê** das decisões tomadas, não só o que foi feito.
 

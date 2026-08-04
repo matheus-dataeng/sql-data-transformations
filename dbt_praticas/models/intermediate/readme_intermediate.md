@@ -16,7 +16,7 @@ Um único modelo, que concentra toda a lógica de transformação do pipeline:
 
 ## Por que `LEFT JOIN` e não `INNER JOIN`?
 
-Porque perder pedidos por causa de uma chave sem correspondência (cliente ou produto órfão) esconderia um problema real de qualidade de dados. Com `LEFT JOIN`, o pedido continua existindo na tabela, só que com campos `NULL` onde a informação não pôde ser resolvida — o problema fica visível e auditável, em vez de silenciosamente descartado.
+Porque perder pedidos por causa de uma chave sem correspondência (cliente ou produto órfão) esconderia um problema real de qualidade de dados. Com `LEFT JOIN`, o pedido continua existindo na tabela, só que com campos `NULL` onde a informação não pôde ser resolvida, o problema fica visível, em vez de silenciosamente descartado.
 
 ## Por que existem tantos valores `NULL` aqui, e por que isso é esperado
 
@@ -26,11 +26,11 @@ Os CSVs foram construídos propositalmente com inconsistências (chaves órfãs,
 
 - tratar/inventar valores aqui seria mascarar um problema de origem;
 - a intermediate deve representar **os dados disponíveis**, não uma versão idealizada deles;
-- decisões sobre como lidar com esses `NULL`s (excluir, sinalizar, imputar) são decisões de **consumo** — cabem à camada de marts, a um dashboard, ou a uma regra explícita e documentada, nunca a um `COALESCE` silencioso no meio do pipeline.
+- decisões sobre como lidar com esses `NULL`s (excluir, sinalizar, imputar) são decisões de **consumo**, cabem à camada de marts, a um dashboard, ou a uma regra explícita e documentada, nunca a um `COALESCE` silencioso no meio do pipeline.
 
 ## Por que concentrar tudo em um único modelo?
 
-Para deixar claro, para quem está aprendendo, onde a complexidade do pipeline realmente mora. Em um projeto maior, essa lógica normalmente seria quebrada em múltiplos modelos intermediários (um por junção ou por domínio) — mas aqui a decisão foi manter tudo em `int_pedidos` para que a jornada dos dados fique fácil de seguir em um único arquivo.
+Para deixar claro, para quem está aprendendo, onde a complexidade do pipeline realmente mora. Em um projeto maior, essa lógica normalmente seria quebrada em múltiplos modelos intermediários (um por junção ou por domínio), mas aqui a decisão foi manter tudo em `int_pedidos` para que a jornada dos dados fique fácil de seguir em um único arquivo.
 
 ## Estrutura típica com CTEs
 
@@ -81,4 +81,4 @@ final AS (
 SELECT * FROM final
 ```
 
-Cada CTE representa um passo lógico e nomeado — isso é abordado em detalhe em [`conceitos_sql/readme_conceitos.md`](../../conceitos_sql/readme_conceitos.md).
+Cada CTE representa um passo lógico e nomeado, isso é abordado em detalhe em [`conceitos_sql/readme_conceitos.md`](../../conceitos_sql/readme_conceitos.md).

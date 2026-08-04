@@ -2,7 +2,7 @@
 
 ## Papel desta camada
 
-A marts é a camada de **consumo**: tabelas prontas para serem usadas por análise, BI ou qualquer processo downstream. Aqui a lógica pesada já foi resolvida na intermediate — o trabalho da marts é **modelar**, não transformar.
+A marts é a camada de **consumo**: tabelas prontas para serem usadas por análise, BI ou qualquer outro tipo de processo. Aqui a lógica pesada já foi resolvida na camada anterior, o trabalho da marts é **modelar**, não transformar.
 
 ## Modelo dimensional
 
