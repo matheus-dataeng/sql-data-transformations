@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_pedidos
+    description: "Tabela staging referente a pedidos"
+    columns: 
+      - name: pedido_id
+        description: "Chave primaria do pedido"
+        tests:
+            - unique
+            - not_null
+      

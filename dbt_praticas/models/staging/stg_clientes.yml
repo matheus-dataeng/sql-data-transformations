@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_clientes
+    description: "Tabela staging referente a clientes"
+    columns: 
+      - name: cliente_id
+        description: "Chave primaria do cliente"
+        tests:
+            - not_null
+        

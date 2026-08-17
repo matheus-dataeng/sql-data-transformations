@@ -64,7 +64,7 @@ int_pedidos AS(
 		cli.nome AS nome_cliente,
 		cli.cidade,
 		cli.estado,
-		pro.produto_id,
+		ped.produto_id,
 		pro.nome AS nome_produto,
 		pro.categoria,
 		ped.quantidade,

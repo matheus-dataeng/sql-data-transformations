@@ -16,7 +16,7 @@ dim_produtos AS (
 		nome_produto,
 		categoria
 	FROM ranking_produto
-	WHERE ranking_produto = 1
+	WHERE ranking_produto = 1 AND produto_id IS NOT NULL
 )
 
 SELECT  

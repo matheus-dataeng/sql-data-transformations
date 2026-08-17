@@ -1,0 +1,20 @@
+version: 2
+
+models:
+
+  - name: fact_pedidos
+    columns:
+      - name: produto_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_produtos')
+                field: produto_id 
+                            
+      - name: cliente_id
+        data_tests:
+        - relationships:
+            arguments:
+              to: ref('dim_clientes')
+              field: cliente_id 
+  

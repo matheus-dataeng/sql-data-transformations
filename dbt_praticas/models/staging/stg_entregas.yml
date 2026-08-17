@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_entregas
+    description: "Tabela staging referente a entregas"
+    columns: 
+      - name: entrega_id
+        description: "Chave primaria da entre"
+        tests:
+            - unique
+            - not_null

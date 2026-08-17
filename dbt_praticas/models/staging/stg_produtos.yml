@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_produtos
+    description: "Tabela staging referente a produtos"
+    columns: 
+      - name: produto_id
+        description: "Chave primaria do produto"
+        tests:
+            - not_null
+        

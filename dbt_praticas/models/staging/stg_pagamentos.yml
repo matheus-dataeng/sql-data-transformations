@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_pagamentos
+    description: "Tabela staging referente aos pagamentos"
+    columns: 
+      - name: pagamento_id
+        description: "Chave primaria do pagamento"
+        tests:
+            - unique
+            - not_null
+      

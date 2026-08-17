@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_produtos
+    description: "Tabela dimensão contendo informações únicas dos clientes."
+    columns:
+      - name: produto_id
+        description: "Chave primaria do produto"
+        tests:
+          - unique
+          - not_null

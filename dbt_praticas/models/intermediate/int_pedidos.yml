@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: int_pedidos
+    description: "Tabela intermediate"
+    
+    columns:
+      
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Pago
+                  - Enviado
+                  - Cancelado
+                  - Pendente
+
+      - name: status_pagamento
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Pago
+                  - Pendente
+                  - Estornado
+
+      - name: forma_pagamento
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Boleto
+                  - Cartão
+                  - PIX
