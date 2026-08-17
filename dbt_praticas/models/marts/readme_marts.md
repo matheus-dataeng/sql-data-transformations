@@ -8,8 +8,8 @@ A marts é a camada de **consumo**: tabelas prontas para serem usadas por análi
 
 | Modelo | Tipo | Fonte |
 |---|---|---|
-| `dim_clientes` | Dimensão | `int_pedidos` |
-| `dim_produtos` | Dimensão | `int_pedidos` |
+| `dim_clientes` | Dimensão | `stg_clientes` |
+| `dim_produtos` | Dimensão | `stg_produtos` |
 | `fct_pedidos` | Fato | `int_pedidos` |
 
 ## `dim_clientes` e `dim_produtos`
