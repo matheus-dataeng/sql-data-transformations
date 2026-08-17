@@ -46,9 +46,13 @@ Este modelo **reaproveita `int_pedidos` sem alterações**:
 
 Porque toda a lógica de transformação já foi resolvida na camada `intermediate`. Repetir joins ou cálculos na marts violaria a responsabilidade de cada camada (regra de negócio mora em `intermediate`, não em `marts`) e criaria duas fontes de verdade para a mesma lógica. A marts apenas expõe o resultado final para consumo — se precisar de outra granularidade ou agregação, isso deveria virar um novo modelo (`fct_pedidos_diario`, por exemplo), não uma alteração dentro deste.
 
-## Testes esperados nesta camada
+## Testes implementados
 
-Ainda que não seja o foco deste README, vale destacar que é aqui que fazem mais sentido testes como:
+Por representar a camada de consumo do pipeline, a marts concentra testes voltados para a consistência do modelo dimensional.
 
-- `unique` e `not_null` na chave primária de `dim_clientes` e `dim_produtos` (para validar que o `ROW_NUMBER()` funcionou);
-- `relationships` entre `fct_pedidos` e as dimensões.
+Neste projeto foram utilizados:
+
+- `unique` e `not_null` nas chaves primárias das dimensões (`dim_clientes` e `dim_produtos`), garantindo que o processo de deduplicação com `ROW_NUMBER()` produziu exatamente um registro por entidade;
+- `relationships` entre `fct_pedidos` e as dimensões, verificando que todas as chaves presentes na tabela fato possuem correspondência nas respectivas dimensões.
+
+Enquanto a camada intermediate valida regras de negócio, a marts valida a integridade do modelo analítico que será consumido por dashboards, análises e outras aplicações.

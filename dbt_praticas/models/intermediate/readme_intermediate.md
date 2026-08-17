@@ -18,6 +18,18 @@ Um único modelo, que concentra toda a lógica de transformação do pipeline:
 
 Porque perder pedidos por causa de uma chave sem correspondência (cliente ou produto órfão) esconderia um problema real de qualidade de dados. Com `LEFT JOIN`, o pedido continua existindo na tabela, só que com campos `NULL` onde a informação não pôde ser resolvida, o problema fica visível, em vez de silenciosamente descartado.
 
+## Testes implementados
+
+Na camada intermediate, os testes deixam de verificar apenas a estrutura dos dados e passam a validar **regras de negócio**.
+
+Neste projeto foram utilizados testes `accepted_values` para garantir que determinadas colunas contenham apenas valores previstos pelo domínio da aplicação, como:
+
+- `status`;
+- `status_pagamento`;
+- `forma_pagamento`.
+
+Diferentemente da staging, não foram aplicados testes como `not_null` em colunas provenientes dos `LEFT JOIN`s (`cliente_id` e `produto_id`), pois valores `NULL` são esperados quando existem registros órfãos na origem. Forçar esses testes faria o pipeline falhar por um comportamento que foi preservado de forma intencional para evidenciar problemas de qualidade dos dados.
+
 ## Por que existem tantos valores `NULL` aqui, e por que isso é esperado
 
 Os CSVs foram construídos propositalmente com inconsistências (chaves órfãs, pagamentos ausentes, entregas ausentes). Ao fazer `LEFT JOIN`, essas inconsistências se manifestam como `NULL`.

@@ -36,6 +36,19 @@ Se você está tentado a resolver um problema de negócio dentro de um `stg_*`, 
 
 Porque a staging deve representar **o dado como ele chega**, com o mínimo de padronização técnica. Esconder duplicatas ou registros órfãos nesta camada tira a visibilidade do problema, e problemas de qualidade de dados devem ser tratados de forma explícita e documentada em camadas posteriores (ou via testes do dbt), não silenciados aqui.
 
+## Testes implementados
+
+Nesta camada, os testes verificam apenas a **qualidade estrutural** dos dados, sem validar regras de negócio.
+
+Os principais testes utilizados são:
+
+- `not_null`: garante que chaves primárias não sejam nulas;
+- `unique`: garante que identificadores que devem ser únicos realmente não possuam duplicatas.
+
+Esses testes têm como objetivo identificar problemas na ingestão ou na padronização dos dados antes que eles avancem para as próximas etapas do pipeline.
+
+É importante destacar que **nem todos os modelos recebem os mesmos testes**. Algumas tabelas da fonte foram construídas propositalmente com registros duplicados para simular cenários reais de qualidade de dados. Nesses casos, aplicar um teste de `unique` faria o modelo falhar por um comportamento esperado da base, e não por um erro de transformação.
+
 ## Exemplo de padrão usado
 
 ```sql
